@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+#page1{
+  height: 100vh ;
+ position:relative;
+ width:100%;
+ padding: 0 1vw ;
+
+ padding-top:18vh;
+
+}
+
+#page1 h1{
+  font-size: 13vw;
+  text-transform: uppercase;
+  font-family: futura;
+  line-height:14vw;
+  letter-spacing: -8px;
+
+}
+
+#video-container{
+  height:100vh;
+  width: 100%;
+  background-color: grey;
+  margin-top: 1vw;
+
+
+
+}
+#video-container #play{
+  padding: 4vw 2vw;
+  background-color: black;
+  color: #fff;
+  font-size: 1.5vw;
+  position: fixed;
+  border-radius: 50%;
+  text-transform: uppercase;
+font-family: futura;
+opacity: 0;
+scale: 0;
+}
+
+#video-container video{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+
+
+}
